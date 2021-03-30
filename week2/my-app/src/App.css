@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  background-color: #E5E5E5;
+}
+
+.Post {
+  width:  720px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 30px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 20px 30px;
+  margin: 30px auto;
+
+  
+}
+.Grid {
+  display: grid;
+  grid-template-columns: 50px 1fr; 
+}
+.PostContent {
+  text-align: left;
+  line-height: 19px;
+}
+
+.PostLabel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.PostLine {
+  background-color: #e0e0e0;
+  height: 1px;
+  width: 725px;
+  margin: 15px auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
