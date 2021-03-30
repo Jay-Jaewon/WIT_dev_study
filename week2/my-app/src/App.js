@@ -44,7 +44,7 @@ class Post extends React.Component {
 function App() {
   return (
   <div className="App">
-    <h1>week2</h1>
+    <h1>Week2</h1>
     <Post />
   </div>
 
